@@ -5,7 +5,6 @@ const app = express()
 
 app.use("/user",userRoutes)
 
-console.log("hello users")
 
 app.listen(2000,()=>{
     console.log("\n server running on port 2000 live")
