@@ -6,8 +6,8 @@ const app = express()
 app.use("/user",userRoutes)
 
 
-app.listen(2000,()=>{
-    console.log("\n server running on port 2000")
+app.listen(5000,()=>{
+    console.log("\n server running on port 5000")
 })
 
 
