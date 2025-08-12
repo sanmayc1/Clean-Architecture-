@@ -7,7 +7,7 @@ app.use("/user",userRoutes)
 
 
 app.listen(2000,()=>{
-    console.log("\n server running on port 2000")
+    console.log("\n server running on port ")
 })
 
 
